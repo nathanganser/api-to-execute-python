@@ -5,7 +5,7 @@ application = Flask(__name__)
 secret = "OK"  # can you access this data
 
 
-@application.route("/execute")
+@application.route("/execute", methods= ['GET', 'POST'])
 def execute():
     code = request.json.get('code')
 
