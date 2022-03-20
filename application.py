@@ -24,5 +24,6 @@ def execute():
     print("done")
     return jsonify(response)
 
+if __name__ == '__main__':
 
-application.run()
+    application.run()
