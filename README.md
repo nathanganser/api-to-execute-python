@@ -16,5 +16,5 @@ You will receive the final value of all the declared variables in response.
 **JSON response:** `{'my_value': 5500}`
 
 
-## Examples
-*coming soon*
+## Try me!
+Visit `https://api-run-code.herokuapp.com/` to try it!

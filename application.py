@@ -1,12 +1,18 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 
 application = Flask(__name__)
 
 secret = "OK"  # can you access this data
 
 
+@application.route('/', methods=['GET', 'POST'])
+def tryme():
+    if request.method == 'GET':
+        return render_template('try.html')
+
 @application.route("/execute", methods= ['GET', 'POST'])
 def execute():
+    print(request.json)
     code = request.json.get('code')
 
     response = {}
