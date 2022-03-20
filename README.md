@@ -18,3 +18,7 @@ You will receive the final value of all the declared variables in response.
 
 ## Try me!
 Visit `https://api-run-code.herokuapp.com/` to try it!
+
+
+## More information
+The `play.py` file is just there to play around if someone wants to try and hack in.
